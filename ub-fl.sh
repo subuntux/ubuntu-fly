@@ -34,7 +34,7 @@ select_option() {
         2)
             cd $HOME
             termux-notification --title "Download Ubuntu-Fly" --content "This can take a while" --priority high
-            wget https://raw.githubusercontent.com/subuntux/ubuntu-fly/main/releases/download/v.1.0/ubuntu-fly.zip 
+            wget https://github.com/subuntux/ubuntu-fly/releases/download/v.1.0/ubuntu-fly.zip 
             mkdir -p .ubuntu-fly/files 
             mv ubuntu-fly.zip .ubuntu-fly/files
             cd .ubuntu-fly/files
